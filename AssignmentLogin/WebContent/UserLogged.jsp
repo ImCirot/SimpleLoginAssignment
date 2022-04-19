@@ -14,7 +14,12 @@
 			String surname = (String) request.getAttribute("surname");
 		%> 
 		Hi <%out.print(name + " " + surname);%>,
-		welcome to your personal area! 
+		welcome to your personal area!
 	</p>
+		
+	<form action="LogOutServlet" method="get">
+		<input type="submit" value="logout" />
+	</form>
+
 </body>
 </html>

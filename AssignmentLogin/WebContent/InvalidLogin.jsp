@@ -9,7 +9,7 @@
 <body>
 	<h1>Not logged in!</h1>
 	<p>
-		Warning! Wrong username or password!<br />
+		Warning! Wrong username or password!<br /><br />
 		<a href="./LoginPage.jsp">Try again</a>
 	</p>
 </body>
